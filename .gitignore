@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+*.zip
+/extracted_takeout/
+/sharepoint_staging/
+/uploaded_zips/
+batch_checkpoint.json
+migration_manifest.json

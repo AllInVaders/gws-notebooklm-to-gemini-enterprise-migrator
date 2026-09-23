@@ -1,0 +1,4 @@
+gws_email,m365_upn,ge_target_email,sharepoint_site_url
+user001@old-gws-domain.com,user001@new-m365-domain.com,user001@new-m365-domain.com,https://contoso.sharepoint.com/sites/GeminiNotebooks/Shared Documents/user001@new-m365-domain.com
+user002@old-gws-domain.com,user002@new-m365-domain.com,user002@new-m365-domain.com,https://contoso.sharepoint.com/sites/GeminiNotebooks/Shared Documents/user002@new-m365-domain.com
+user003@old-gws-domain.com,user003@new-m365-domain.com,user003@new-m365-domain.com,https://contoso.sharepoint.com/sites/GeminiNotebooks/Shared Documents/user003@new-m365-domain.com
