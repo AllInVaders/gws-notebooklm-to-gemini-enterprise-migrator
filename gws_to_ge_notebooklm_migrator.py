@@ -983,8 +983,8 @@ def _provision_single_notebook_worker(
       "status": "pending",
   }
 
-  # 1. Create Notebook
-  create_url = f"{endpoint_prefix}/v1alpha/{base_parent}/notebooks"
+  # 1. Create Notebook (?serviceAccountUser=true enables Service Account, Human Admin, and Business User tokens simultaneously)
+  create_url = f"{endpoint_prefix}/v1alpha/{base_parent}/notebooks?serviceAccountUser=true"
   resp = request_with_backoff(
       "POST", create_url, headers=headers, json={"title": nb_title}, timeout=25
   )
